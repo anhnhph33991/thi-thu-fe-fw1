@@ -1,4 +1,4 @@
-const api = "http://localhost:3000/cameras"
+const api = "https://666f070ef1e1da2be521c717.mockapi.io/api/cameras"
 app.controller('ListController', function ($scope, $http) {
     $scope.cameras = [];
 
