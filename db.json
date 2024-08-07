@@ -1,0 +1,52 @@
+{
+  "cameras": [
+    {
+      "id": 1,
+      "tenMay": "Camera 1",
+      "viTriLap": "Hoai Duc",
+      "gia": 2000000,
+      "nguoiLap": "Hoang Anh",
+      "trangThai": "Hoạt Động"
+    },
+    {
+      "id": 2,
+      "tenMay": "Camera 2",
+      "viTriLap": "Song Phuong",
+      "gia": 120000,
+      "nguoiLap": "LuxChill",
+      "trangThai": "Hỏng"
+    },
+    {
+      "id": 3,
+      "tenMay": "Camera 3",
+      "viTriLap": "Hoai Duc",
+      "gia": 2000000,
+      "nguoiLap": "Hoang Anh",
+      "trangThai": "Đang Sửa"
+    },
+    {
+      "id": 1,
+      "tenMay": "Camera 1",
+      "viTriLap": "Hoai Duc",
+      "gia": 2000000,
+      "nguoiLap": "Hoang Anh",
+      "trangThai": "Hoạt Động"
+    },
+    {
+      "tenMay": "cam 4",
+      "viTriLap": "hoai duc",
+      "gia": 20000,
+      "nguoiLap": "luxchill",
+      "trangThai": "Đang Sửa",
+      "id": 4
+    },
+    {
+      "tenMay": "Camera test",
+      "viTriLap": "Song Phuong",
+      "gia": 120000,
+      "nguoiLap": "cbd",
+      "trangThai": "Hoạt Động",
+      "id": 5
+    }
+  ]
+}

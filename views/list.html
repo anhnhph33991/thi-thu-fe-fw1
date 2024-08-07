@@ -1,0 +1,43 @@
+<div class="container">
+
+    <a href="#!/camera/add" class="btn btn-success">Add</a>
+
+    <table class="table">
+        <thead>
+            <th>Id</th>
+            <th>tenMay</th>
+            <th>viTriLap</th>
+            <th>gia</th>
+            <th>nguoiLap</th>
+            <th>trangThai</th>
+            <th>Action</th>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="item in cameras">
+                <td>
+                    {{ item.id }}
+                </td>
+                <td>
+                    {{ item.tenMay }}
+                </td>
+                <td>
+                    {{ item.viTriLap }}
+                </td>
+                <td>
+                    {{ item.gia }}
+                </td>
+                <td>
+                    {{ item.nguoiLap }}
+                </td>
+                <td>
+                    {{ item.trangThai }}
+                </td>
+                <td>
+                    <a href="#!/edit/camera/{{ item.id }}" class="btn btn-warning">Edit</a>
+                    <a href="#!/detail/camera/{{ item.id }}" class="btn btn-info">Detail</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

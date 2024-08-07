@@ -1,0 +1,52 @@
+<div class="container">
+    <h1>Form Edit </h1>
+    <a href="#!/list-camera" class="btn btn-success">Back</a>
+
+
+    <form>
+
+        <div class="mb-3">
+            <label>tenMay</label>
+            <input type="text" class="form-control" ng-model="input.tenMay">
+            <span class="text-danger">
+                {{ errors.tenMay }}
+            </span>
+        </div>
+
+        <div class="mb-3">
+            <label>viTriLap</label>
+            <input type="text" class="form-control" ng-model="input.viTriLap">
+            <span class="text-danger">
+                {{ errors.viTriLap }}
+            </span>
+        </div>
+
+        <div class="mb-3">
+            <label>gia</label>
+            <input type="number" class="form-control" ng-model="input.gia">
+            <span class="text-danger">
+                {{ errors.gia }}
+            </span>
+        </div>
+
+        <div class="mb-3">
+            <label>nguoiLap</label>
+            <input type="text" class="form-control" ng-model="input.nguoiLap">
+            <span class="text-danger">
+                {{ errors.nguoiLap }}
+            </span>
+        </div>
+
+        <div class="mb-3">
+            <label>trangThai</label>
+            <select ng-model="input.trangThai" class="form-select">
+                <option value="Hoạt Động">Hoạt Động</option>
+                <option value="Hỏng">Hỏng</option>
+                <option value="Đang Sửa">Đang Sửa</option>
+            </select>
+        </div>
+
+        <button class="btn btn-success" type="button" ng-click="handleEdit()">Update</button>
+
+    </form>
+</div>
